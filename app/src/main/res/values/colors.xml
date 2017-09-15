@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f00</color>
+    <color name="colorPrimaryDark">#f00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_bg_color">#2b4d4a</color>
+    <color name="app_white_color">#fff</color>
+    <color name="app_red_color">#f00</color>
+    <color name="app_edittext_bg_color">#efefef</color>
+
+    <!-- TODO : SelectLanguageActivity Colors #3F51B5-->
+
+    <color name="select_language_text_color">#414042</color>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/splash_screen_layout_padding"
+    android:background="@color/app_bg_color"
+    tools:context="com.smart_app.smartapp.SplashScreenActivity">
+
+    <TextView android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/app_white_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/splash_screen_text_size"
+        android:text="@string/splash_screen_text"/>
+
+</RelativeLayout>

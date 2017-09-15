@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical"
+    android:padding="@dimen/registration_activity_parent_layout_padding"
+    tools:context="com.smart_app.smartapp.register.activity.RegistrationActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_white_color"
+        android:elevation="@dimen/card_view_elevation"
+        app:cardCornerRadius="@dimen/card_view_corner_radius"
+        app:cardUseCompatPadding="true"
+        android:padding="@dimen/registration_activity_card_view_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/registration_activity_linear_layout_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_first_name_text_view_text"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <EditText
+                android:id="@+id/firstNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/app_edit_text_padding"
+                android:background="@drawable/edittext_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:id="@+id/firstNameErrorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_middle_name_text_view_text"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <EditText
+                android:id="@+id/middleNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/app_edit_text_padding"
+                android:background="@drawable/edittext_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:id="@+id/middleNameErrorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_last_name_text_view_text"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <EditText
+                android:id="@+id/lastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/app_edit_text_padding"
+                android:background="@drawable/edittext_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:id="@+id/lastNameErrorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_email_text_view_text"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/app_edit_text_padding"
+                android:background="@drawable/edittext_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:id="@+id/emailErrorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"
+                android:visibility="gone" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <TextView
+                android:id="@+id/mobileNoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_mobile_no_text_view_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/countryCodeEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:textStyle="bold"
+                    android:padding="@dimen/app_edit_text_padding"
+                    android:text="@string/app_country_code_number_prefix"
+                    android:enabled="false"
+                    />
+
+                <Space
+                    android:layout_width="@dimen/app_space"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/mobileNoEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="@dimen/app_edit_text_padding"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView android:id="@+id/mobileNoErrotTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"
+                android:visibility="gone"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+
+
+            <TextView
+                android:id="@+id/genderTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_gender_text_view_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/registration_activity_linear_layout_radio_group_padding">
+
+
+                <RadioGroup
+                    android:id="@+id/genderRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/maleRadioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:buttonTint="@color/app_red_color"
+                        android:checked="true"
+                        android:text="@string/registration_activity_gender_male_text"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/femaleRadioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:buttonTint="@color/app_red_color"
+                        android:text="@string/registration_activity_gender_female_text"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/transgenderRadioButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="45"
+                        android:buttonTint="@color/app_red_color"
+                        android:text="@string/registration_activity_gender_transgender_text"
+                        android:textStyle="bold" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration_activity_emergency_contact_text_view_text" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/app_space" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/countryCodePrefixTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_background"
+                    android:padding="13dp"
+                    android:paddingLeft="8dp"
+                    android:text="@string/app_country_code_number_prefix"
+                    android:layout_alignParentTop="true" />
+
+                <Space
+                    android:layout_toRightOf="@+id/countryCodePrefixTextView"
+                    android:layout_width="@dimen/app_space"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/space" />
+
+                <EditText
+                    android:id="@+id/emergencyContactEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/space"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:padding="@dimen/app_edit_text_padding" />
+
+                <ImageView
+                    android:id="@+id/emergencyContactImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/ic_phone_book" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/emergencyContactErrorTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/app_red_color"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/app_space" />
+
+    <Button android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_activity_register_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/app_white_color"
+        android:background="@drawable/rounded_red_bg_button"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO : App Level Dimensions -->
+
+    <dimen name="card_view_corner_radius">5dp</dimen>
+    <dimen name="card_view_elevation">3dp</dimen>
+    <dimen name="app_space">5dp</dimen>
+    <dimen name="app_edit_text_padding">5dp</dimen>
+    <dimen name="app_card_view_padding">5dp</dimen>
+    <dimen name="app_linear_layout_padding">5dp</dimen>
+    <dimen name="app_text_view_padding">5dp</dimen>
+
+    <!-- TODO : SplashScreenActivity dimensions -->
+    <dimen name="splash_screen_layout_padding">10dp</dimen>
+    <dimen name="splash_screen_text_size">25sp</dimen>
+
+    <!-- TODO : SelectLanguageActivity dimensions -->
+
+    <dimen name="select_language_layout_padding">10dp</dimen>
+    <dimen name="select_language_text_size">14sp</dimen>
+    <dimen name="select_language_layout_card_view_padding">20dp</dimen>
+    <dimen name="select_language_text_view_margin">20dp</dimen>
+    <dimen name="select_language_radio_group_height">90dp</dimen>
+    <dimen name="select_language_english_radio_button_height">55dp</dimen>
+    <dimen name="select_language_martahi_radio_button_height">55dp</dimen>
+    <dimen name="select_language_radio_buttons_margin_left">25dp</dimen>
+    <dimen name="select_language_radio_buttons_text_size">20sp</dimen>
+    <dimen name="select_language_next_button_margin">15dp</dimen>
+    <dimen name="select_language_next_button_text_size">16sp</dimen>
+    <dimen name="select_language_radio_group_margin_top">40dp</dimen>
+    <dimen name="select_language_card_view_elevation">3dp</dimen>
+    <dimen name="select_language_card_view_corner_radius">5dp</dimen>
+
+    <!-- TODO : LoginActivity dimensions -->
+
+    <dimen name="login_activity_layout_padding">10dp</dimen>
+    <dimen name="login_activity_card_view_padding">10dp</dimen>
+    <dimen name="login_activity_card_view_linear_layout_padding">10dp</dimen>
+    <dimen name="login_activity_margin_top">5dp</dimen>
+    <dimen name="login_activity_create_account_text_view_margin_top">10dp</dimen>
+    <dimen name="login_activity_create_account_text_size">16sp</dimen>
+    <dimen name="login_activity_edit_text_padding">5dp</dimen>
+
+    <!-- TODO : ForgotPassword Activity -->
+
+    <dimen name="forgot_password_activity_parent_layout_padding">10dp</dimen>
+    <dimen name="forgot_password_activity_card_view_padding">10dp</dimen>
+    <dimen name="forgot_password_activity_linear_layout_padding">10dp</dimen>
+    <dimen name="forgot_password_activity_space_height">5dp</dimen>
+
+    <!-- TODO : Registration Activity -->
+
+    <dimen name="registration_activity_parent_layout_padding">10dp</dimen>
+    <dimen name="registration_activity_card_view_padding">10dp</dimen>
+    <dimen name="registration_activity_linear_layout_padding">10dp</dimen>
+    <dimen name="registration_activity_linear_layout_radio_group_padding">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- TODO : Change Password -->
+    <dimen name="change_password_fragment_parent_padding">10dp</dimen>
+
+    <!-- TODO : Logout Dialog -->
+    <dimen name="logout_dialog_parent_padding">10dp</dimen>
+
+</resources>

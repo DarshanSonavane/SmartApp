@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/select_language_layout_padding"
+    android:background="@color/app_bg_color"
+    tools:context="com.smart_app.smartapp.language.activity.SelectLanguageActivity">
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/select_language_card_view_elevation"
+        app:cardCornerRadius="@dimen/select_language_card_view_corner_radius"
+        app:cardUseCompatPadding="true"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/select_language_layout_card_view_padding"
+        android:background="@color/app_white_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/select_language_text_view_margin"
+                android:text="@string/select_language_text"
+                android:textColor="@color/select_language_text_color"
+                android:textSize="@dimen/select_language_text_size"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/languageRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/select_language_radio_group_height"
+                android:layout_marginTop="@dimen/select_language_radio_group_margin_top"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/marathiRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/select_language_martahi_radio_button_height"
+                    android:layout_marginLeft="@dimen/select_language_radio_buttons_margin_left"
+                    android:buttonTint="@color/app_red_color"
+                    android:checked="false"
+                    android:text="@string/select_language_marathi_text"
+                    android:textSize="@dimen/select_language_radio_buttons_text_size" />
+
+                <RadioButton
+                    android:id="@+id/englishRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/select_language_radio_buttons_margin_left"
+                    android:buttonTint="@color/app_red_color"
+                    android:checked="true"
+                    android:text="@string/select_language_english_text"
+                    android:textSize="@dimen/select_language_radio_buttons_text_size" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/languageRadioGroup"
+                android:layout_margin="@dimen/select_language_next_button_margin"
+                android:background="@drawable/rounded_blue_bg_button"
+                android:text="@string/select_language_button_text"
+                android:textAllCaps="false"
+                android:textColor="@color/app_white_color"
+                android:textStyle="bold"
+                android:textSize="@dimen/select_language_next_button_text_size" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    
+</LinearLayout>
