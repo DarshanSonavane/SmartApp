@@ -1,4 +1,4 @@
-# ToDo Application with Sqlite Database
+# ToDo Application with Sqlite Database Ionic 2
 
 The **ToDo Application** is created in Ionic 2 , as well as this is made in order to help people learn and speed up their development process.
 
