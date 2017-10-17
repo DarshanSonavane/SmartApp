@@ -8,3 +8,5 @@ The application uses different ionic component as **ion-list,buttons as well as 
 This application will help you to perform the CRUD operations  using the localstorageservice
 
 The application contains two pages i.e HomePage which will list all the added ToDo's which are stored in localstorage and AddToDoPage which will allow you to save the todo in localstorage.
+
+## Installations
