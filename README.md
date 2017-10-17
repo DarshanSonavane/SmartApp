@@ -20,3 +20,12 @@ $ ionic cordova plugin add cordova-sqlite-storage
 ``` sh
 $ npm install --save @ionic/storage
 ```
+
+## Launching Application
+
+To run the application on browser use following command
+
+```sh
+
+$ ionic serve
+```
