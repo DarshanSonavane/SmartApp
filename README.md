@@ -15,6 +15,8 @@ To run the application we have to install some packages and plugins which are as
 
 ``` sh
 $ ionic cordova plugin add cordova-sqlite-storage
-$ npm install --save @ionic/storage
 
+```
+``` sh
+$ npm install --save @ionic/storage
 ```
