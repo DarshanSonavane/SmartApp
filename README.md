@@ -13,6 +13,14 @@ $ npm install @agm/core --save
 
 ```
 
+```sh
+$ ionic cordova plugin add cordova-plugin-geolocation --variable GEOLOCATION_USAGE_DESCRIPTION="YOUR DESCRIPTION"
+```
+
+```sh
+$ npm install --save @ionic-native/geolocation
+```
+
 ## Launching Application
 
 To run the application on browser use following command
