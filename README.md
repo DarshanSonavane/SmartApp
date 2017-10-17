@@ -10,3 +10,5 @@ This application will help you to perform the CRUD operations  using the localst
 The application contains two pages i.e HomePage which will list all the added ToDo's which are stored in localstorage and AddToDoPage which will allow you to save the todo in localstorage.
 
 ## Installations
+
+To run the application we have to install some packages and plugins which are as follows:
