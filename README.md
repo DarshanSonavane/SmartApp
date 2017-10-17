@@ -29,3 +29,12 @@ To run the application on browser use following command
 
 $ ionic serve
 ```
+
+To run the application on your mobile device use the following command
+```sh
+$ ionic cordova run android
+```
+
+```sh
+$ ionic cordova run ios
+```
