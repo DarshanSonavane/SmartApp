@@ -12,3 +12,8 @@ The application contains two pages i.e HomePage which will list all the added To
 ## Installations
 
 To run the application we have to install some packages and plugins which are as follows:
+
+``` sh
+$ ionic cordova plugin add cordova-sqlite-storage
+
+```
