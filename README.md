@@ -23,7 +23,7 @@ $ npm install --save @ionic-native/geolocation
 
 ## Launching Application
 
-To run the application on browser use following command
+To run the application on browser use following command 
 
 ```sh
 
